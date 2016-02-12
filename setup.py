@@ -15,7 +15,7 @@ nxppy = Extension('nxppy',
 class build_nxppy(build):
     def run(self):
         def compile():
-            #call( './get_nxpRdLib.sh', shell=True )
+            call( './get_nxpRdLib.sh', shell=True )
 
             # Find where neard-explorenfc was extracted
             nxprdlib_dir = glob('neard-explorenfc-*/nxprdlib')[0]
