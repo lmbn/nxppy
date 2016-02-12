@@ -69,10 +69,10 @@ cleanup() {
 }
 
 all() {
-  prereq
-  neardal
-  wiringpi
-  nxp
+  #prereq
+  #neardal
+  #wiringpi
+  #nxp
   cleanup
 }
 
